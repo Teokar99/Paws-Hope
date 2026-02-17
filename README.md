@@ -1,0 +1,86 @@
+********************************************************
+site is live at https://teokar99.github.io/Paws-Hope/
+********************************************************
+
+Τίτλος: Paws & Hope – Φιλοζωική Οργάνωση (Responsive Website)
+Ονοματεπώνυμο: Καραγεώργος Θεόδωρος
+Τμήμα/Σεμινάριο: Web Developer [elearn88]
+Μάθημα: Τελική Εργασία: l1621-Σχεδίαση Responsive Ιστοσελίδων_Responsive Web Design-με Bootstrap και Dreamweaver
+Ημερομηνία: 18/02/2026
+
+1. Σκοπός Ιστοσελίδας
+
+Η ιστοσελίδα “Paws & Hope” είναι ένα responsive site φιλοζωικής οργάνωσης με στόχο την ενημέρωση του κοινού για τις δράσεις, τις υιοθεσίες, τη δυνατότητα δωρεάς και την επικοινωνία με την ομάδα.
+============================================================================================
+
+2. Sitemap (Δομή Σελίδων)
+
+Αρχική (index.html)
+
+Η Οργάνωση (about.html)
+
+Δράσεις (events.html)
+
+Δωρεά (donate.html)
+
+Επικοινωνία (contact.html)
+
+Gallery (gallery.html) (προαιρετική/extra)
+==============================================================================================
+
+3. Τεχνολογίες που χρησιμοποιήθηκαν
+
+HTML5, CSS3
+
+Bootstrap 5 (Grid, navbar, cards, buttons, utilities)
+
+Bootstrap Icons
+
+JavaScript (main.js) για δυναμικά στοιχεία:
+
+ενημέρωση έτους στο footer
+
+donate υπολογισμός/submit feedback
+
+back-to-top button
+
+lightbox fullscreen στο gallery
+==============================================================================================
+
+4. Custom Design / Template Customization
+
+Custom CSS (glass navbar, soft cards, rounded corners, shadows)
+
+Manrope font (Google Fonts)
+
+Χρωματική παλέτα: soft purple / pastel background
+
+Responsive layout με Bootstrap grid
+==============================================================================================
+
+5. Περιεχόμενο & Λειτουργικότητες
+
+Home: Hero section, “Τι κάνουμε”, Adoption Spotlight, Carousel “Στιγμές Δράσης”
+
+About: περιγραφή οργάνωσης
+
+Events: λίστα δράσεων + calendar view
+
+Donate: επιλογές ποσού (σταθερά & custom) + υπολογισμός συνόλου + confirmation message
+
+Contact: φόρμα επικοινωνίας + embedded map
+
+Gallery: masonry grid + lightbox fullscreen
+==============================================================================================
+
+6. Responsive Έλεγχος (Screenshots)
+
+Παρατέθηκαν screenshots για Desktop και Mobile προβολή για κάθε σελίδα.
+==============================================================================================
+
+7. Πηγές (Sources)
+
+Εικόνες: (Unsplash/Pexels)
+
+Bootstrap / Bootstrap Icons / Google Fonts
+==============================================================================================
