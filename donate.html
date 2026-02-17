@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="el">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Paws & Hope • Δωρεά</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top glass-nav">
+      <div class="container">
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+  <img src="assets/img/logo.png" alt="Paws & Hope Logo" class="site-logo">
+</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Εναλλαγή πλοήγησης"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="index.html">Αρχική</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">Η Οργάνωση</a></li>
+            <li class="nav-item"><a class="nav-link" href="events.html">Δράσεις</a></li>
+            <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link active" href="donate.html">Δωρεά</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Επικοινωνία</a></li>
+            <li class="nav-item ms-lg-2">
+              <a class="btn btn-primary btn-sm px-3" href="donate.html">Υιοθέτησε / Βοήθησε</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <header class="section">
+      <div class="container">
+        <p class="badge soft-badge mb-3">Δωρεά</p>
+        <h1 class="display-6 fw-semibold mb-2">Κάνε τη βοήθεια απλή</h1>
+        <p class="text-muted mb-0 col-lg-8">
+          Η δωρεά σου καλύπτει τροφές, φάρμακα, εξετάσεις και στειρώσεις. Ακόμα και 5€ κάνουν διαφορά.
+        </p>
+      </div>
+    </header>
+
+    <section class="section pt-0">
+      <div class="container">
+        <div class="row g-3 g-md-4">
+          <!-- LEFT: TIERS -->
+          <div class="col-lg-7">
+            <div class="row g-3">
+              <div class="col-md-4">
+                <div class="card soft-card h-100 donate-tier">
+                  <div class="card-body">
+                    <div class="icon-bubble mb-3">🥣</div>
+                    <h2 class="h5 fw-semibold mb-1">5€</h2>
+                    <p class="text-muted mb-3">Γεύματα για 1–2 μέρες</p>
+                    <button class="btn btn-light border w-100 js-amount" data-amount="5">
+                      Επιλογή 5€
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card soft-card h-100 donate-tier featured">
+                  <div class="card-body">
+                    <div class="icon-bubble mb-3">💊</div>
+                    <h2 class="h5 fw-semibold mb-1">15€</h2>
+                    <p class="text-muted mb-3">Φάρμακα / αντιπαρασιτικά</p>
+                    <button class="btn btn-primary w-100 js-amount" data-amount="15">
+                      Επιλογή 15€
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card soft-card h-100 donate-tier">
+                  <div class="card-body">
+                    <div class="icon-bubble mb-3">🩺</div>
+                    <h2 class="h5 fw-semibold mb-1">30€</h2>
+                    <p class="text-muted mb-3">Εξέταση / βασικός έλεγχος</p>
+                    <button class="btn btn-light border w-100 js-amount" data-amount="30">
+                      Επιλογή 30€
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card soft-card mt-3">
+              <div class="card-body p-4">
+                <h3 class="h5 fw-semibold mb-2">Άλλο ποσό</h3>
+                <p class="text-muted mb-3">Γράψε το ποσό που θέλεις να προσφέρεις.</p>
+
+                <div class="input-group">
+                  <span class="input-group-text">€</span>
+                  <input
+                    id="customAmount"
+                    type="number"
+                    min="1"
+                    class="form-control"
+                    placeholder="π.χ. 20"
+                  />
+                  <button class="btn btn-outline-primary" id="useCustom">
+                    Χρήση ποσού
+                  </button>
+                </div>
+
+                <div class="text-muted small mt-3">
+                  *Για την εργασία: αυτή είναι demo φόρμα δωρεάς (χωρίς πραγματική πληρωμή).
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: DONATION FORM -->
+          <div class="col-lg-5">
+            <div class="card soft-card">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-start justify-content-between gap-3">
+                  <div>
+                    <h2 class="h4 fw-semibold mb-1">Ολοκλήρωση δωρεάς</h2>
+                    <p class="text-muted mb-0">Γρήγορα και με ασφάλεια.</p>
+                  </div>
+                  <span class="pill">🔒 Secure</span>
+                </div>
+
+                <hr style="border-color: rgba(15,23,42,.08)" />
+
+                <div class="mb-3">
+                  <label class="form-label">Ποσό</label>
+                  <div class="donation-amount">
+                    <span class="text-muted">Σύνολο</span>
+                    <span class="fw-semibold"><span id="selectedAmount">15</span>€</span>
+                  </div>
+                </div>
+
+                <form id="donationForm">
+                  <div class="mb-3">
+                    <label class="form-label">Ονοματεπώνυμο</label>
+                    <input class="form-control" type="text" placeholder="Π.χ. Μαρία Παπαδοπούλου" required />
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input class="form-control" type="email" placeholder="you@email.com" required />
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="form-label">Μήνυμα (προαιρετικό)</label>
+                    <textarea class="form-control" rows="3" placeholder="Π.χ. Καλή δύναμη!"></textarea>
+                  </div>
+
+                  <button class="btn btn-primary w-100" type="submit">
+                    Ολοκλήρωση (Demo)
+                  </button>
+                </form>
+
+                <div id="thanks" class="thanks-box mt-3 d-none">
+                  <div class="fw-semibold mb-1">Ευχαριστούμε! 💜</div>
+                  <div class="text-muted small">
+                    Η δωρεά καταχωρήθηκε (demo). Θα λάβεις επιβεβαίωση στο email.
+                  </div>
+                </div>
+
+                <div class="mt-3 small text-muted">
+                  Με τη δωρεά σου συμφωνείς με τους όρους και την πολιτική απορρήτου (demo).
+                </div>
+              </div>
+            </div>
+
+            <div class="card soft-card mt-3">
+              <div class="card-body p-4">
+                <h3 class="h5 fw-semibold mb-2">Πού πάνε τα χρήματα;</h3>
+                <ul class="text-muted mb-0">
+                  <li>Τροφές & νερό</li>
+                  <li>Φάρμακα & εξετάσεις</li>
+                  <li>Στειρώσεις</li>
+                  <li>Έκτακτα περιστατικά</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row gy-3 align-items-center">
+          <div class="col-md-6">
+            <div class="d-flex align-items-center gap-2">
+              <span class="brand-mark">🐾</span>
+              <span class="fw-semibold">Paws &amp; Hope</span>
+            </div>
+            <div class="text-muted small mt-2">
+              © <span id="year"></span> Paws &amp; Hope — All rights reserved.
+            </div>
+          </div>
+
+          <div class="col-md-6 text-md-end">
+<a class="social" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+<a class="social" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+<a class="social" href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top d-none" aria-label="Πάνω">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
